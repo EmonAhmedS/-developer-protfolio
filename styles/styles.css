@@ -1,0 +1,39 @@
+*{
+     font-family: "Open Sans", system-ui; 
+}
+
+.text-praimary{
+    color: red;
+}
+
+.btn-primary{
+    background-color: red;
+        width: 80px;
+        border-radius: 5px;
+        border: 0;
+        color: white;
+        padding: 5px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{ list-style: none;
+    margin-left: 30px;
+
+}
+nav a{ text-decoration: none;
+
+}
