@@ -8,7 +8,8 @@
 
 .btn-primary{
     background-color: red;
-        width: 80px;
+        width: 120px;
+        height: 45px;
         border-radius: 5px;
         border: 0;
         color: white;
@@ -20,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 40px;
@@ -36,4 +38,72 @@ nav li{ list-style: none;
 }
 nav a{ text-decoration: none;
 
+}
+/* header stlye suru korlam */
+.header-stlye{
+    background-color:antiquewhite;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.banner-style{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0px 195px;
+     align-items: center; 
+    
+}
+.banner-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+.banner-discription{
+    max-width: 500px;
+    margin-top: 0;
+}
+.btn-margin{
+    margin-right: 20px;
+}
+/* এখান থেকে section suru korlam */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-me{
+    background-color: antiquewhite;
+    margin: 150px 0;
+    padding: 130px;
+    
+}
+.aa{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about-dis{
+    
+    text-align: center;
+}
+.about-container{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.about-title{
+    margin-bottom: 1px;
+}
+.about-aa{
+    margin-top: 1px;
 }
